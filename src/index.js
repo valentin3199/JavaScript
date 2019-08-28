@@ -1,4 +1,7 @@
 
+//methids work with the primitive type and object type. Will be covered in detail late
+var fruit  = 'apple';
+
 //Concatention
 var firstName = 'Valentin';
 var lastName  = 'Nicolae';
