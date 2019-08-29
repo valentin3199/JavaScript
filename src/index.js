@@ -1,6 +1,37 @@
 
+
+
+
+
+//////////////////Test
+//Task 1: Prompt the user to provide their first name and store it in a variable fistName.
+var firstName  = prompt(' Please enter your first name:');
+
+//Task 2: Prompt the suer to provide their last name and store it in a variable lastName.
+var lastName = prompt(' Please enter your last name: ');
+
+//Task 3: Prompt the user to provide their year of brith and store in a variable year as a number.
+var year = prompt('Please enter your year of birth:');
+year = parseInt(year);
+console.log(firstName, lastName, year);
+
+//create the variable setencel
+var sentencel = 'Hello' + firstName + ' ' + lastName + '.';
+
+//Calculate the user age in 2040 and store in a variabl: futureAge;
+var futureAge = 2040 - year;
+
+//create sentace2
+var sentance2 = 'Your age in 2040 will be ' + futureAge + '.';
+
+//create result variable
+var result = sentencel + '\n' +sentence2;
+
 //methids work with the primitive type and object type. Will be covered in detail late
 var fruit  = 'apple';
+console.log(fruit.length);
+console.log(fruit.charAt(2));
+console.log(fruit.charAt(4));
 
 //Concatention
 var firstName = 'Valentin';
