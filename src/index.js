@@ -1,40 +1,62 @@
-// Test
-var module1 = prompt('Module 1 mark:');
+
+var x;
+console.log(x);
+console.log(typeof x);
+
+var y = null;
+console.log(y);
+console.log(typeof y);
+
+
+
+
+
+// // Test
+// var module1 = prompt('Module 1 mark:');
  
-var module2 = prompt('Module 2 ark:');
+// var module2 = prompt('Module 2 ark:');
 
-var module3 = prompt('Module 3 mark:');
+// var module3 = prompt('Module 3 mark:');
 
-var module4 = prompt('Module 4 mark:');
+// var module4 = prompt('Module 4 mark:');
 
-var module5 = prompt('Module 5 mark:');
+// var module5 = prompt('Module 5 mark:');
 
-// create marks variables and prompt the user to input their marks
+// // create marks variables and prompt the user to input their marks
 
-console.log('Your results: ')
-console.log(' Module 1 mark: ' + module1);
-console.log(' Module 2 mark: ' + module2);
-console.log(' Module 3 mark: ' + module3);
-console.log(' Module 4 mark: ' + module4);
-console.log(' Module 5 mark: ' + module5);
+// console.log('Your results: ')
+// console.log(' Module 1 mark: ' + module1);
+// console.log(' Module 2 mark: ' + module2);
+// console.log(' Module 3 mark: ' + module3);
+// console.log(' Module 4 mark: ' + module4);
+// console.log(' Module 5 mark: ' + module5);
 
-//create pass variables
-var pass1 = module1 >= 60 ? 1 : 0;
-var pass2 = module2 >= 60 ? 1 : 0;
-var pass3 = module3 >= 60 ? 1 : 0;
-var pass4 = module4 >= 60 ? 1 : 0;
-var pass5 = module5 >= 60 ? 1 : 0;
-console.log(pass1);
+// //create pass variables
+// var pass1 = module1 >= 60 ? 1 : 0;
+// var pass2 = module2 >= 60 ? 1 : 0;
+// var pass3 = module3 >= 60 ? 1 : 0;
+// var pass4 = module4 >= 60 ? 1 : 0;
+// var pass5 = module5 >= 60 ? 1 : 0;
+// console.log(pass1);
 
 
-// Create marks variables and prompt the user to input their marks
-var numModulesPassed = pass1 + pass2 + pass3 + pass4 + pass5 ;
-console.log('You passed ' + numModulesPassed + 'modules');var numModulesPassed = pass1 + pass2 + pass3 + pass4 + pass5 ;
+// // Create marks variables and prompt the user to input their marks
+// var numModulesPassed = pass1 + pass2 + pass3 + pass4 + pass5 ;
+// console.log('You passed ' + numModulesPassed + 'modules');
 
-// Calculate the average
-var average = (module1 + module2 + module3 + module4 + module5)/5 ;
-average = average.toFixed(2);
-console.log('Your average mark is:' + average);
+// // Calculate the average
+// var average = (module1 + module2 + module3 + module4 + module5)/5 ;
+// average = average.toFixed(2);
+// console.log('Your average mark is:' + numModulesPassed + 'moduels');
+
+// //Create the pass variable
+// var pass = (average >= 60) && (numModulesPassed >= 4);
+// console.log(pass);
+
+// //create the result variable
+// var result = pass ? 'Congratulations!' : 'Fail!'
+// console.log(result);
+
 
 
 //  //Boleans
