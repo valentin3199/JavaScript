@@ -1,50 +1,105 @@
+// Test
+var module1 = prompt('Module 1 mark:');
+ 
+var module2 = prompt('Module 2 ark:');
+
+var module3 = prompt('Module 3 mark:');
+
+var module4 = prompt('Module 4 mark:');
+
+var module5 = prompt('Module 5 mark:');
+
+// create marks variables and prompt the user to input their marks
+
+console.log('Your results: ')
+console.log(' Module 1 mark: ' + module1);
+console.log(' Module 2 mark: ' + module2);
+console.log(' Module 3 mark: ' + module3);
+console.log(' Module 4 mark: ' + module4);
+console.log(' Module 5 mark: ' + module5);
+
+//create pass variables
+var pass1 = module1 >= 60 ? 1 : 0;
+var pass2 = module2 >= 60 ? 1 : 0;
+var pass3 = module3 >= 60 ? 1 : 0;
+var pass4 = module4 >= 60 ? 1 : 0;
+var pass5 = module5 >= 60 ? 1 : 0;
+console.log(pass1);
 
 
+// Create marks variables and prompt the user to input their marks
+var numModulesPassed = pass1 + pass2 + pass3 + pass4 + pass5 ;
+console.log('You passed ' + numModulesPassed + 'modules');var numModulesPassed = pass1 + pass2 + pass3 + pass4 + pass5 ;
+
+// Calculate the average
+var average = (module1 + module2 + module3 + module4 + module5)/5 ;
+average = average.toFixed(2);
+console.log('Your average mark is:' + average);
 
 
+//  //Boleans
+// var a = 3;
+// var b = 5;
+// var z = a < b ;
+// console.log(z);
+
+// //Logical Operators
+// z = (a < b) && (a > 0);
+// z = false || true;
+// z = !true //It is oposit
+// console.log(z);
+
+// //Unary Operator
+// z = a > 2 ? 'Pass' : 'Fail';
+// console.log(z);
+
+// //Logical operators with non booleans
+// console.log(0 == true);
+// z = 1 && 'apple';
+// console.log(z);
 
 //////////////////Test
 //Task 1: Prompt the user to provide their first name and store it in a variable fistName.
-var firstName  = prompt(' Please enter your first name:');
+// var firstName  = prompt(' Please enter your first name:');
 
-//Task 2: Prompt the suer to provide their last name and store it in a variable lastName.
-var lastName = prompt(' Please enter your last name: ');
+// //Task 2: Prompt the suer to provide their last name and store it in a variable lastName.
+// var lastName = prompt(' Please enter your last name: ');
 
-//Task 3: Prompt the user to provide their year of brith and store in a variable year as a number.
-var year = prompt('Please enter your year of birth:');
-year = parseInt(year);
-console.log(firstName, lastName, year);
+// //Task 3: Prompt the user to provide their year of brith and store in a variable year as a number.
+// var year = prompt('Please enter your year of birth:');
+// year = parseInt(year);
+// console.log(firstName, lastName, year);
 
-//create the variable setencel
-var sentencel = 'Hello' + firstName + ' ' + lastName + '.';
+// //create the variable setencel
+// var sentencel = 'Hello' + firstName + ' ' + lastName + '.';
 
-//Calculate the user age in 2040 and store in a variabl: futureAge;
-var futureAge = 2040 - year;
+// //Calculate the user age in 2040 and store in a variabl: futureAge;
+// var futureAge = 2040 - year;
 
-//create sentace2
-var sentance2 = 'Your age in 2040 will be ' + futureAge + '.';
+// //create sentace2
+// var sentance2 = 'Your age in 2040 will be ' + futureAge + '.';
 
-//create result variable
-var result = sentencel + '\n' +sentence2;
+// //create result variable
+// var result = sentencel + '\n' +sentence2;
 
-//methids work with the primitive type and object type. Will be covered in detail late
-var fruit  = 'apple';
-console.log(fruit.length);
-console.log(fruit.charAt(2));
-console.log(fruit.charAt(4));
+// //methids work with the primitive type and object type. Will be covered in detail late
+// var fruit  = 'apple';
+// console.log(fruit.length);
+// console.log(fruit.charAt(2));
+// console.log(fruit.charAt(4));
 
-//Concatention
-var firstName = 'Valentin';
-var lastName  = 'Nicolae';
-var fullName = firstName + ' ' + lastName ;
-console.log(fullName);
+// //Concatention
+// var firstName = 'Valentin';
+// var lastName  = 'Nicolae';
+// var fullName = firstName + ' ' + lastName ;
+// console.log(fullName);
 
-//new Line
-var line = 'This is \n a new line'
-console.log(line);
-// TAB
-line = 'Here is \t a Tab';
-console.log(line);
+// //new Line
+// var line = 'This is \n a new line'
+// console.log(line);
+// // TAB
+// line = 'Here is \t a Tab';
+// console.log(line);
 
 ///////////////////////TEST
 //Speed limit: 50miles/h
