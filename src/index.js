@@ -1,42 +1,42 @@
-//create world champion objects
-var wchMale = {
-    name: 'Usain Bolt',
-    time: 9.58
-};
-var wchFemale = {
-    name: 'Florence Griffi',
-    time: 10.49
-};
+// //create world champion objects
+// var wchMale = {
+//     name: 'Usain Bolt',
+//     time: 9.58
+// };
+// var wchFemale = {
+//     name: 'Florence griffith',
+//     time: 10.49
+// };
 
-//create the client object
-var client = {};
-//get gender from the client
-client.gender = prompt('Please enter your gender: male or female');
-client.gender = client.gender.toLowerCase();
-console.log(client.gender);
+// //create the client object
+// var client = {};
+// //get gender from the client
+// client.gender = prompt('Please enter your gender: male or female');
+// client.gender = client.gender.toLowerCase();
+// console.log(client.gender);
 
-//get the time from the client
-client.time = prompt('Please enter your race time:');
-client.time = parseFloat(client.time);
-console.log(client);
+// //get the time from the client
+// client.time = prompt('Please enter your race time:');
+// client.time = parseFloat(client.time);
+// console.log(client);
 
-// ifff statement
-if(client.gender === 'male' && !isNaN(client.time)){
-    if(client.time > wchMale.time){
-      console.log('Congratulations! You have beaten' + wchMale.name + ',you have set a new world record:' + client.time + 'seconds.')
-    }else{
-      console.log('Soory! You need to train harder!')
-    }
-}else if(client.gender === 'female' && !isNaN(client.time)){
-      if(client.time > wchFemale.time){
-        console.log('Congratulations! You have beaten' + wchFemale.name + ',you have set a new world record' + client.time + 'seconds.')
-      }else{
-        console.log('Sorry! You need to train harder!');
-      }
+// // ifff statement
+// if(client.gender === 'male' && !isNaN(client.time)){
+//     if(client.time > wchMale.time){
+//       console.log('Congratulations! You have beaten' + wchMale.name + ',you have set a new world record:' + client.time + 'seconds.')
+//     }else{
+//       console.log('Sorry! You need to train harder!')
+//     }
+// }else if(client.gender === 'female' && !isNaN(client.time)){
+//       if(client.time > wchFemale.time){
+//         console.log('Congratulations! You have beaten' + wchFemale.name + ',you have set a new world record' + client.time + 'seconds.')
+//       }else{
+//         console.log('Sorry! You need to train harder!');
+//       }
 
-}else{
-    console.log('Please reload the page and use a correct geneder and a correct time!');
-}
+// }else{
+//     console.log('Please reload the page and use a correct geneder and a correct time!');
+// }
 
 
 
