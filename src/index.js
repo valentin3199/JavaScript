@@ -1,14 +1,201 @@
+//create world champion objects
+var wchMale = {
+    name: 'Usain Bolt',
+    time: 9.58
+};
+var wchFemale = {
+    name: 'Florence Griffi',
+    time: 10.49
+};
 
-var x;
-console.log(x);
-console.log(typeof x);
+//create the client object
+var client = {};
+//get gender from the client
+client.gender = prompt('Please enter your gender: male or female');
+client.gender = client.gender.toLowerCase();
+console.log(client.gender);
 
-var y = null;
-console.log(y);
-console.log(typeof y);
+//get the time from the client
+client.time = prompt('Please enter your race time:');
+client.time = parseFloat(client.time);
+console.log(client);
+
+// ifff statement
+if(client.gender === 'male' && !isNaN(client.time)){
+    if(client.time > wchMale.time){
+      console.log('Congratulations! You have beaten' + wchMale.name + ',you have set a new world record:' + client.time + 'seconds.')
+    }else{
+      console.log('Soory! You need to train harder!')
+    }
+}else if(client.gender === 'female' && !isNaN(client.time)){
+      if(client.time > wchFemale.time){
+        console.log('Congratulations! You have beaten' + wchFemale.name + ',you have set a new world record' + client.time + 'seconds.')
+      }else{
+        console.log('Sorry! You need to train harder!');
+      }
+
+}else{
+    console.log('Please reload the page and use a correct geneder and a correct time!');
+}
 
 
 
+
+                    ////Amazing
+// var car = 1000;
+// var salary = 50;
+// if(car > salary){
+//   console.log('payment succesful!');
+//   salary -= car;
+// }else {
+//   console.log('You don\'t have enough founds!');
+// }
+
+// var speed = 30; //..40..70
+
+// if(speed > 70){
+// console.log('You are going too fast!');
+// }else if(speed < 40){
+//   console.log('You are going too slow');
+// }else {
+//   console.log('You are speed is fine!')
+// }
+
+
+
+////Casher
+//Help the cashier return the right of change
+
+//Programme input:
+    //Amount due
+    //Amount paid by the customer
+
+//Programme output:
+    //Print change amount
+    //Print change breakdown: notes and coins
+    // console.log(50-44);
+    // var x = prompt('message');
+
+
+//UK Example:
+    //Banknotes:
+    //£50 - £20 - £10 - £5
+    //Coins:
+    //£2 - £1 - 50p - 20p -10p - 5p - 2p -1p
+
+
+
+// //Arrays Quick Overview
+// var shoppingList = ['bread', 'eggs' , 'milk'];
+// console.log(shoppingList);
+// console.log(shoppingList[1]); // eggs
+// console.log(shoppingList.length);
+
+
+// //  Test   create object for stundents
+// var student1 = {
+//   name: 'Mark',
+//   grade: 80,
+// };
+// var student2 = {
+//   name: 'John',
+//   grade: 75,
+// };
+// var student3 = {
+//   name: 'Sara',
+//   grade: 90,
+// };
+
+// //Calculate the average
+// var average = ((student1.grade + student2.grade + student3.grade )/3);
+// average = average.toFixed(2); //Show Only first 2 numbers
+// console.log(average);
+
+// //Add more points to Mark
+// var extra = 15;
+// student1.grade += extra;
+// console.log( student1 );
+
+
+
+// ////////////OBJECT
+
+// //object = collection of properties
+// var myPhone = {
+//     make: 'Apple',
+//     model: 'Iphone XS',
+//     warranty: 1,
+//     color: 'silver',
+// }
+
+
+// console.log(myPhone);
+// console.log(myPhone.model);
+
+// //change property
+// myPhone.model = 'Iphone 1'
+// console.log(myPhone);
+
+// //add new property
+// myPhone.storage = '64 Go';
+// console.log(myPhone); 
+
+// //delete property
+// delete myPhone.storge;
+// console.log(myPhone);
+
+// //new let's do somesthing interesting
+// var x =1;
+// var y = x; //y stores value 1
+// x = 2;
+// console.log(y) //still 1;
+
+// //now let's do that with object
+
+// var myOtherPhone = myPhone;
+// console.log(myOtherPhone);
+
+// //change myPhone
+// myPhone.color = 'gold'
+// console.log(myPhone);
+// console.log(myOtherPhone);
+
+
+// var z = '1' + 5;
+// console.log(z);
+// console.log(typeof z);
+
+// z = '1' - 5;
+// console.log(z);
+// console.log(typeof z);
+
+// z = 'one' * 2;
+// console.log(z);
+// console.log(typeof z);
+
+// z = 2 * null;
+// console.log(z);
+// console.log(typeof z);
+// console.log( 0 == false);
+// console.log( null == false);
+// console.log(undefined == false);
+// console.log('' == false);
+
+// //undefined == null
+// console.log(undefined == null)
+
+
+
+
+
+//null and undefind
+// var x;
+// console.log(x);
+// console.log(typeof x);
+
+// var y = null;
+// console.log(y);
+// console.log(typeof y);
 
 
 // // Test
