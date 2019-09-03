@@ -1,3 +1,54 @@
+// //return a function
+// function flower(x){
+//     return function(name){
+//         console.log(x + ' ' + name + '!');
+//     }
+// }
+
+// flower('Hello')('pula');
+// console.log(flower('Hello'));
+
+
+
+
+// //biuld the calculateCost function
+// function calculateCost(hotelPrice, duration, ticketPrice, budget){
+//     var totalCost = hotelPrice * duration + ticketPrice;
+//     console.log('The total cost of your plan is' + totalCost);
+//     console.log('Your budget is £' + budget + '.');
+// //decide whether the plan is within our budget
+// var result;
+// if(totalCost <= budget) {
+//     result = 'Let\'s go';
+// }else{
+//     result = 'Please change your plan!'
+// }
+// return result;
+// }
+
+
+// //create a function
+// function greeting() {
+//     console.log('hello');
+// }
+// console.log(greeting);
+// greeting();
+
+// //function with a parameter
+// function greeting2(firstname){
+//     console.log('Hello ' + firstname + '!');
+// }
+// greeting2('Valentin');
+
+// //more than one parametr
+// function sum(a,b){
+//     return a + b;
+// }
+
+// var x = sum(3, 7);
+// console.log(x);
+
+
 // //create world champion objects
 // var wchMale = {
 //     name: 'Usain Bolt',
