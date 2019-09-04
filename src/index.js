@@ -1,3 +1,159 @@
+
+
+// var tototalVotes = 0;
+
+// var food1 = {
+//     name: 'Laura',
+//     votes: 0
+// };
+// var food2 = {
+//     name: 'Vali',
+//     votes: 0
+// };
+
+// function vote(food){
+//     food.votes ++;
+//     tototalVotes ++;
+// }
+// while(tototalVotes < 10) {
+//     var choise =prompt('To vote for Laura,type 1 . To vote for Vali,type 2.')
+//     if(choise === '1'){
+//         vote(food1);
+//     }else if(choise === '2') {
+//         vote(food2)
+//     }
+// }
+// console.log('Results:');
+// console.log('Laura ' + food1.votes + ' votes');
+// console.log('Vali ' + food2.votes + ' votes')
+// if(food1.votes < food2.votes) {
+//     food2.name + 'It is the favorite'
+// }else if (food1.votes > food2.votes) {
+//     food1.name + 2'It is the Favorite'
+// }else{
+//     'It is egal'
+// }
+
+
+
+
+
+// //Create the totalVotes variable
+// var totalVotes = 0;
+
+// //create player1 and player2 objects
+// var player1 = {
+//     name: 'Rafel Nadal',
+//     votes: 0
+// };
+// var player2 = {
+//     name: 'Novak Djokovic',
+//     votes: 0
+// };
+
+// //build the vote function
+// function vote(player){
+//     player.votes ++;
+//     totalVotes ++;
+// }
+// //ask for votes
+// while(totalVotes < 10) {
+//     //get the vote: 1 or 2
+//     var choice = prompt('To vote Rafael Nadal, type 1. To vote Novak Djokovic, type 2,');
+//     //1 -> Rafael, 2 -> Novak
+//     if(choice === '1'){
+//         //vote to Rafel
+//         vote(player1);
+//     }else if ( choice === '2'){
+//         vote(player2);
+//     }
+// }
+//  //Results:
+// console.log('Results:');
+// console.log('Rafael Nadal:' + player1.votes + 'votes.');
+// console.log('Novak Djokovic:' + player2.votes + 'votes.');
+// //who is the favourite to win
+// if(player1.votes > player2.votes){
+//     player1.name + 'is the favorite';
+// }else if(player1.votes < player2.votes){
+//     player2.name + ' is the favorite';
+// }else{
+//     console.log('No favorite to win');
+// }
+
+
+
+// //outside functions
+// var a = 1;
+// var b = a;
+// a++; //a becomes 2
+// console.log(a); //2
+// console.log(b); //1
+
+// var house1 = {
+//     type: 'terraced',
+//     town: 'cambridge',
+// }
+// var house2 = house1;
+// house1.town = 'London';
+// console.log(house1);
+// console.log(house2);
+
+// //back to functions
+// var c = 1;
+
+// //function that adds one to a copy of x
+// function addOne(x){
+//     x ++;
+// }
+// addOne(c); //addOne(1)
+// console.log(c); //c is still 1 because only a copy of c was used inside the function
+
+// //now try this 
+// function add1() {
+//     c ++;
+// }
+// add1();
+// console.log(c); //c did not change
+
+// //pass by reference
+// var person1 = {
+//     name: 'vali',
+//     age: 12
+// }
+// var person2 = person1;
+
+// function addYear(person){
+//     person.age ++;
+// }
+
+// addYear(person1);
+// console.log(person1);
+// console.log(person2);
+
+
+
+
+
+
+// //create the function great
+// function greet(language){
+//     if(language.toLowerCase() === 'english'){
+//         return function(name){
+//             return 'Hello ' + name + 'Good morning';
+//         }
+//     }else if (language.toLowerCase() === 'spanish') {
+//         return function(name){
+//             return 'Hola' + name + 'Buenos dias';
+//         }
+//     }else {
+//         return function(name){
+//             return 'I can only speak English or Spanish.'
+//         }
+//     }
+// }
+
+
 // //return a function
 // function flower(x){
 //     return function(name){
