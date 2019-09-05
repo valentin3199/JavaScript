@@ -1,5 +1,148 @@
 
 
+//////ERORRRR/////////
+// //The Island Tresure
+// var box1 = {
+//     sivler: 10,
+//     gold: 5,
+//     platinum: 5,
+// };
+// var box2 = {
+//     sivler: 5,
+//     gold: 7,
+//     platinum: 8,
+// };
+// var box3 = {
+//     sivler: 7,
+//     gold: 3,
+//     platinum: 10,
+// };
+// var box4 = {
+//     sivler: 6,
+//     gold: 6,
+//     platinum: 12,
+// };
+// var box5 = {
+//     sivler: 3,
+//     gold: 12,
+//     platinum: 5,
+// };
+// //create priceKG
+// var priceKg ={
+//     silver: 400,
+//     gold: 40000,
+//     platinum: 25000,
+// };
+//  //create calcBoxValue
+//  var calcBoxValue  = function(box) {
+//      var result = box.silver * priceKg.silver +
+//      box.gold * priceKg.gold +
+//      box.platinum * priceKg.platinum;
+//      return result;
+//  };
+// //.create calcTotal
+// var calcTotal = function(myFunction, [box1, box2, box3]) {
+//     var result = myFunction(boxes[0]) +
+//      myFunction(boxes[1]) + 
+//      myFunction(boxes[2]);
+//      return 'Take home: $' + result + '.';
+// };
+
+
+
+
+// //function statement
+// console.log(sum(3,5));
+// function sum(a, b){
+//     return a + b;
+// }
+// //function expression
+// var greet = function(name){
+//     console.log(' Hello ' + name + ' ! ');
+// };
+// greet('Mark');
+
+// function sum2(myFunction, myArray){
+//     var result = 0;
+//     for(var i = 0; i < myArray.length; i ++){
+//         result += myFunction(myArray[i]);
+//     }
+//     return result;
+// }
+// var y = sum2(function(x){
+//     return x * x;
+// }, [1, 2, 3]);
+// console.log(y);
+
+
+
+
+
+
+//////////////////NO WORKING .///////
+// //create the robot object
+//  var robot = {
+//      name: 'Mars Invader',
+//      coordinates: {
+//          x: 0,
+//          y: 0,
+//          z: 0
+//      }
+//  };
+
+// //add the check method
+// robot.check = function(){
+//     console.log('Robot position: x =' + 
+//     this.coordinates.x + ', y =' + 
+//     this.coordinates.y + ', z =' +
+//     this.coordinates.z + '.');
+    
+//     //check if we reached the final destination which is: 4, 2, 3
+//     if(this.coordinates.x === 4 &&
+//     this.coordinates.y === 2 && 
+//     this.coordinates.z === 3
+//     ){
+//         console.log('mission complete!');
+//     }
+// };
+
+// //add moveRight and moveLeft
+// robot.moveRight = fucntion(){
+//     if(this.coordinates.x !== 10){
+//         this.coordinates.x ++;
+//     }
+//     this.check();
+// };
+// robot.moveLeft = fucntion(){
+//     if(this.coordinates.x !== 0){
+//         this.coordinates.x --;
+//     }
+//     this.check();
+// };
+
+
+
+// //sore a value inside a varabile
+// var sum = function(a, b){
+//     return a + b;
+// }
+// console.log(sum(1, 3));
+// // use values to set object properties
+// var myPhone = {
+//     make: 'Apple',
+//     model: 'Iphone 2',
+//     warranty: 12,
+//     color: 'gold',
+//     showWarrantyDetails: function() {
+//         console.log('This phone comes with ' + this.warranty + ' months warranty!')
+//     }
+// }
+// myPhone.showWarrantyDetails();
+// function f(x){
+//     return Math.pow(x, 2);
+// }
+// console.log(f(2));
+
 // var tototalVotes = 0;
 
 // var food1 = {
